@@ -1,16 +1,17 @@
 {
-  "name": "simple-app",
+  "name": "chatroom",
   "version": "1.0.0",
-  "main": "app.js",
-  "type": "module",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^5.1.0",
-    "nodemon": "^3.1.9"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.1.2"
   }
 }
